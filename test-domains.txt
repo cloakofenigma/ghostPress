@@ -1,0 +1,4 @@
+# Test domain list for GhostPress Batch Scanner
+# This is a minimal test with just one domain
+
+www.t3bayside.com

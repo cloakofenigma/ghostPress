@@ -1,0 +1,14 @@
+# Example Domain List for GhostPress Batch Scanner
+# Format: One domain per line
+# Lines starting with # are comments and will be ignored
+
+# Example domains
+example.com
+blog.example.com
+shop.example.com
+
+# You can add as many domains as needed
+# test.example.org
+# another-site.com
+
+# The scanner will process them one by one sequentially
