@@ -351,7 +351,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 - **GitHub Issues:** [Report bugs or request features](https://github.com/yourusername/ghostpress/issues)
-- **Security Issues:** Please report security vulnerabilities responsibly to security@example.com
+- **Security Issues:** Please report security vulnerabilities responsibly to cloakofenigma@gmail.com
 
 ## ⭐ Star History
 
