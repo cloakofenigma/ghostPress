@@ -1,0 +1,41 @@
+# GhostPress Configuration File
+# Copy this file to ~/.ghostpress/config and customize
+
+# Target Configuration
+# TARGET="example.com"
+
+# Scan Performance
+THREADS=5
+RATE_LIMIT=10
+TIMEOUT=30
+STEALTH_DELAY=2
+
+# User Agent
+USER_AGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+# Wordlist for Content Discovery
+WORDLIST="/usr/share/wordlists/seclists/Discovery/Web-Content/CMS/wordpress.fuzz.txt"
+
+# User Enumeration
+MAX_USER_ENUM=20
+
+# WPScan API Token (get from https://wpscan.com/api)
+# WPSCAN_API_TOKEN="your-api-token-here"
+
+# Skip Phases
+# SKIP_PHASE1=false
+# SKIP_PHASE2=false
+# SKIP_PHASE3=false
+# SKIP_NMAP=false
+
+# Behavior
+# VERBOSE=false
+# QUIET=false
+# DRY_RUN=false
+
+# Notifications
+# SLACK_WEBHOOK="https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+# DISCORD_WEBHOOK="https://discord.com/api/webhooks/YOUR/WEBHOOK/URL"
+
+# Output Directory
+# OUTPUT_DIR="./ghostpress-scan-$(date +%Y%m%d-%H%M%S)"

@@ -1,0 +1,57 @@
+# GhostPress .gitignore
+
+# Scan output directories
+ghostpress-scan-*/
+wp-scan-results-*/
+
+# Log files
+*.log
+errors.log
+
+# Configuration (contains sensitive tokens)
+config
+.ghostpress/config
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports (optional - uncomment if you don't want to commit reports)
+# reports/
+# *.html
+# *.xlsx
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.claude
+
+# API tokens and secrets
+*token*
+*secret*
+*password*
+*credential*
+.env
